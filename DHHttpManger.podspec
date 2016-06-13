@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DHHttpManger"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "网络请求通用库"
 
   s.description  = <<-DESC
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-#s.source       = { :git => "https://github.com/hbz19870606/DHHttpManger.git", :tag => s.version }
-  s.source       = { :git => "https://github.com/hbz19870606/DHHttpManger.git" }
+  s.source       = { :git => "https://github.com/hbz19870606/DHHttpManger.git", :tag => s.version }
+#s.source       = { :git => "https://github.com/hbz19870606/DHHttpManger.git" }
 
   s.source_files  = "DHHttpManger", "DHHttpManger/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
