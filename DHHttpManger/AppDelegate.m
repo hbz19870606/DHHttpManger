@@ -16,10 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
     
-    //这里更新自己维护的模块功能。。。。更新后上传 引用者重新pod install即可！！
+    /*
+     # 远程（服务器）
+     #source 'https://github.com/hbz19870606/HttpMangerSpecs' #私有仓库地址
+     
+     #pod 'DHHttpManger', '~> 0.0.2'
+     
+     #本地(两种指定方式)
+     pod 'DHHttpManger', :path => '~/Desktop/gitHubDownload/DHHttpManger'
+     #pod 'DHHttpManger', :podspec => '~/Desktop/gitHubDownload/DHHttpManger/DHHttpManger.podspec'
+     */
     
+    //开发组件期间在podfile指定为本地podspec
+    
+    //测试组件开发完成，podfile指定为远程
     
     return YES;
 }
