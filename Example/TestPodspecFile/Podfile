@@ -1,8 +1,0 @@
-target 'TestPodspecFile' do
-
-	source 'https://github.com/CocoaPods/Specs.git'
- 	source 'https://github.com/hbz19870606/HttpMangerSpecs.git'
-
-	pod 'DHHttpManger'
-
-end
