@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/hbz19870606/DHHttpManger.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/hbz19870606/DHHttpManger.git", :tag => s.version }
 #s.source       = { :git => "https://github.com/hbz19870606/DHHttpManger.git" }
 
   s.source_files  = "DHHttpManger", "DHHttpManger/DHHttpManger/*.{h,m}"
