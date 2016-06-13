@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     
-    //Test
+    //这里更新自己维护的模块功能。。。。更新后上传 引用者重新pod install即可！！
     
     
     return YES;
